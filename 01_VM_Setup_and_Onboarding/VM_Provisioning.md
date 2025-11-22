@@ -1,12 +1,12 @@
 # VM Provisioning Documentation
 
 ## 🖥 Virtual Machine Specifications
-- OS:  
-- vCPUs:  
-- RAM:  
-- Disk Size:  
-- Network Configuration:  
-- Host Platform (Azure / VMware / VirtualBox / Hyper-V):
+- OS:  Windows 10 Enterprise, Version 22H2 - x64 Gen 2
+- vCPUs:  1
+- RAM:  3.5 GiB
+- Disk Size:  Standard DS1 v2
+- Network Configuration:  Cyber-Range-2-VNet/Cyber-Range-2-Subnet PublicIP: 20.81.165.102
+- Host Platform: Azure
 
 ## 🚀 Steps to Provision the VM
 1. Create a new VM using your preferred hypervisor or Azure.
