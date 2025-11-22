@@ -1,0 +1,21 @@
+
+---
+
+## **File: `DeviceInfo_Validation.md`**
+
+```markdown
+# Verifying DeviceInfo Logs in MDE
+
+After onboarding, the DeviceInfo table should contain events.
+
+## ✔ Validation Checklist
+- [ ] Device appears in Defender portal
+- [ ] DeviceInfo table logs have populated
+- [ ] Events show accurate OS and device metadata
+
+## 🔍 Validation Query
+
+```kusto
+DeviceInfo
+| where DeviceName contains "<YourDeviceName>"
+| order by TimeGenerated desc
