@@ -1,9 +1,3 @@
-
----
-
-## **File: `DeviceInfo_Validation.md`**
-
-```markdown
 # Verifying DeviceInfo Logs in MDE
 
 After onboarding, the DeviceInfo table should contain events.
@@ -15,7 +9,10 @@ After onboarding, the DeviceInfo table should contain events.
 
 ## 🔍 Validation Query
 
-```kusto
-DeviceInfo
-| where DeviceName contains "<YourDeviceName>"
-| order by TimeGenerated desc
+KQL:
+    DeviceInfo
+    | where DeviceName contains "<YourDeviceName>"
+    | order by TimeGenerated desc
+
+## 📌 Notes
+Document timing, delays, or missing logs if applicable.
