@@ -3,21 +3,21 @@
 > **Purpose:** Document simulated malicious TOR activity and map related IoCs and detection logic.
 
 ## 👤 Analyst Information
-- Name:  
-- Email:  
-- Date:  
+- Name:  Matthew Faustino-Page
+- Email:  mfaustino4786@gmail.com
+- Date:  11/22/2025
 
 ---
 
 # 1. Scenario Summary
-Describe what the "bad actor" did and what this scenario represents.
+Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks.
 
 ---
 
 # 2. Environment
-- Device Name:  
-- OS:  
-- MDE Onboard Status:  
+- Device Name:  matt-threat-hunt
+- OS:  Windows 10 Enterprise x64 Gen2
+- MDE Onboard Status:  Onboarded
 
 ---
 
