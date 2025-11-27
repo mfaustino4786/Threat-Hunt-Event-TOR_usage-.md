@@ -5,7 +5,7 @@
 - vCPUs:  1
 - RAM:  3.5 GiB
 - Disk Size:  Standard DS1 v2
-- Network Configuration:  Cyber-Range-2-VNet/Cyber-Range-2-Subnet PublicIP: 20.81.165.102
+- Network Configuration:  Cyber-Range-2-VNet/Cyber-Range-2-Subnet PublicIP: 135.237.152.103
 - Host Platform: Azure
 
 ## 🚀 Steps to Provision the VM
