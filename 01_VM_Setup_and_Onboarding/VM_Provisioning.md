@@ -1,7 +1,7 @@
 # VM Provisioning Documentation
 
 ## 🖥 Virtual Machine Specifications
-- OS:  Windows 10 Enterprise, Version 22H2 - x64 Gen 2
+- OS:  Windows 11 Pro, Version 25H2  Gen 2
 - vCPUs:  1
 - RAM:  3.5 GiB
 - Disk Size:  Standard DS1 v2
