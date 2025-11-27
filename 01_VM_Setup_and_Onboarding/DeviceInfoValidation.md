@@ -11,7 +11,7 @@ After onboarding, the DeviceInfo table should contain events.
 
 KQL:
     DeviceInfo
-    | where DeviceName contains "matt-threat-hun"  (should have been "matt-threat-hunt" but too many characters)  
+    | where DeviceName contains "threathuntmatt"  
 
 ## 📌 Notes
 Document timing, delays, or missing logs if applicable.
